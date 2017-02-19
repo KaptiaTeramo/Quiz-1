@@ -59,7 +59,8 @@ public class PasserRating {
 		double d;
 		d = 2.375 - ((Interceptions / Attempted) * 25);
 	
-		double PR = (((a + b + c + d) / 6) * 100);
+		double PR;
+		PR = (((a + b + c + d) / 6) * 100);
 		return PR;
 				
 	}
